@@ -5,7 +5,6 @@ jobs:
   build:
     name: Build Code
     runs-on: ubuntu-latest
-    secrets: inherit
     
     steps:    
       - name: Checkout repository
